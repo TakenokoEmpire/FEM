@@ -1,0 +1,27 @@
+{
+  "model":
+    {
+      "m":[
+            196133.0,
+            196133.0
+          ],
+      "k":[
+            25500000.0,
+            34300000.0
+          ]
+    },
+  "condition":
+    {
+      "grav" : 9.80665,           
+      "dt" : 0.01,                
+      "beta" : 0.25,              
+      "damp_factor" : 0.02,       
+      "damp_target_period" : 0.26 
+    },
+  "wave": 
+    {
+      "path" : "./samplewave.csv", 
+      "dt" : 0.02,                 
+      "factor": 0.01              
+    }
+}
